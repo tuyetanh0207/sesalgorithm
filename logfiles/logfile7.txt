@@ -1,0 +1,21 @@
+2023/11/05 20:33:00 Log message for port 8007
+2023/11/05 20:33:00 In sending section: From process 8 send to process 7, timestamp is: [0 0 0 0 0 0 0 0 1 0], messageName is: Message 787, carrier is: [] 
+
+2023/11/05 20:33:00 In receiving process: Process 7 received message from Process 8008:, message is: Message 787, timestamp is [0 0 0 0 0 0 0 0 1 0], receivedArray is: []. prepare process.
+
+2023/11/05 20:33:00 In receiving process: Process 7 received message from Process 8008:, message is: Message 787, timestamp is [0 0 0 0 0 0 0 0 1 0], receivedArray is: []. after checksentbefore, can accept.
+
+2023/11/05 20:33:00 In receiving process: Process 7 received message from Process 8008:, message is: Message 787, timestamp is [0 0 0 0 0 0 0 0 1 0], receivedArray is: []. after checksentbefore, can accept., but receive message unsuccessfully.  End receiving.
+
+2023/11/05 20:33:00 In sending section: From process 8 send to process 9, timestamp is: [0 0 0 0 0 0 3 2 5 1], messageName is: Message 1305, carrier is: [{7 [0 0 0 0 0 0 0 2 0 0] Message 787} {6 [0 0 0 0 0 0 0 1 0 0] Message 1806}] 
+
+2023/11/05 20:33:00 In receiving process: Process 9 received message from Process 8008:, message is: Message 1305, timestamp is [0 0 0 0 0 0 3 2 5 1], receivedArray is: [{7 [0 0 0 0 0 0 0 2 0 0] Message 787} {6 [0 0 0 0 0 0 0 1 0 0] Message 1806}]. prepare process.
+
+2023/11/05 20:33:00 In receiving process: Process 9 received message from Process 8008:, message is: Message 1305, timestamp is [0 0 0 0 0 0 3 2 5 1], receivedArray is: [{7 [0 0 0 0 0 0 0 2 0 0] Message 787} {6 [0 0 0 0 0 0 0 1 0 0] Message 1806}]. after checksentbefore, can accept.
+
+2023/11/05 20:33:00 In sending section: From process 8 send to process 0, timestamp is: [0 0 0 0 0 0 3 2 6 1], messageName is: Message 1415, carrier is: [{7 [0 0 0 0 0 0 0 2 0 0] Message 787} {6 [0 0 0 0 0 0 0 1 0 0] Message 1806} {9 [0 0 0 0 0 0 3 2 5 1] Message 1305}] 
+
+2023/11/05 20:33:01 In receiving process: Process 0 received message from Process 8008:, message is: Message 1415, timestamp is [0 0 0 0 0 0 3 2 6 1], receivedArray is: [{7 [0 0 0 0 0 0 0 2 0 0] Message 787} {6 [0 0 0 0 0 0 0 1 0 0] Message 1806} {9 [0 0 0 0 0 0 3 2 5 1] Message 1305}]. prepare process.
+
+2023/11/05 20:33:01 In receiving process: Process 0 received message from Process 8008:, message is: Message 1415, timestamp is [0 0 0 0 0 0 3 2 6 1], receivedArray is: [{7 [0 0 0 0 0 0 0 2 0 0] Message 787} {6 [0 0 0 0 0 0 0 1 0 0] Message 1806} {9 [0 0 0 0 0 0 3 2 5 1] Message 1305}]. after checksentbefore, can accept.
+

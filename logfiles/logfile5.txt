@@ -1,0 +1,29 @@
+2023/11/05 20:33:00 Log message for port 8005
+2023/11/05 20:33:00 In sending section: From process 6 send to process 5, timestamp is: [0 0 0 0 0 0 1 0 0 0], messageName is: Message 962, carrier is: [] 
+
+2023/11/05 20:33:00 In receiving process: Process 5 received message from Process 8006:, message is: Message 962, timestamp is [0 0 0 0 0 0 1 0 0 0], receivedArray is: []. prepare process.
+
+2023/11/05 20:33:00 In sending section: From process 6 send to process 7, timestamp is: [0 0 0 0 0 0 2 0 0 0], messageName is: Message 674, carrier is: [{5 [0 0 0 0 0 0 1 0 0 0] Message 962}] 
+
+2023/11/05 20:33:00 In receiving process: Process 5 received message from Process 8006:, message is: Message 962, timestamp is [0 0 0 0 0 0 1 0 0 0], receivedArray is: []. after checksentbefore, can accept.
+
+2023/11/05 20:33:00 In receiving process: Process 7 received message from Process 8006:, message is: Message 674, timestamp is [0 0 0 0 0 0 2 0 0 0], receivedArray is: [{5 [0 0 0 0 0 0 1 0 0 0] Message 962}]. prepare process.
+
+2023/11/05 20:33:00 In receiving process: Process 7 received message from Process 8006:, message is: Message 674, timestamp is [0 0 0 0 0 0 2 0 0 0], receivedArray is: [{5 [0 0 0 0 0 0 1 0 0 0] Message 962}]. after checksentbefore, can accept.
+
+2023/11/05 20:33:00 In sending section: From process 6 send to process 8, timestamp is: [0 0 0 0 0 0 3 0 0 0], messageName is: Message 913, carrier is: [{5 [0 0 0 0 0 0 1 0 0 0] Message 962} {7 [0 0 0 0 0 0 2 0 0 0] Message 674}] 
+
+2023/11/05 20:33:00 In receiving process: Process 5 received message from Process 8006:, message is: Message 962, timestamp is [0 0 0 0 0 0 1 0 0 0], receivedArray is: []. after checksentbefore, can accept., but receive message unsuccessfully.  End receiving.
+
+2023/11/05 20:33:00 In receiving process: Process 8 received message from Process 8006:, message is: Message 913, timestamp is [0 0 0 0 0 0 3 0 0 0], receivedArray is: [{5 [0 0 0 0 0 0 1 0 0 0] Message 962} {7 [0 0 0 0 0 0 2 0 0 0] Message 674}]. prepare process.
+
+2023/11/05 20:33:00 In receiving process: Process 8 received message from Process 8006:, message is: Message 913, timestamp is [0 0 0 0 0 0 3 0 0 0], receivedArray is: [{5 [0 0 0 0 0 0 1 0 0 0] Message 962} {7 [0 0 0 0 0 0 2 0 0 0] Message 674}]. after checksentbefore, can accept.
+
+2023/11/05 20:33:00 In receiving process: Process 7 received message from Process 8006:, message is: Message 674, timestamp is [0 0 0 0 0 0 2 0 0 0], receivedArray is: [{5 [0 0 0 0 0 0 1 0 0 0] Message 962}]. after checksentbefore, can accept., but receive message unsuccessfully.  End receiving.
+
+2023/11/05 20:33:00 In sending section: From process 6 send to process 9, timestamp is: [0 0 0 0 0 3 5 1 0 0], messageName is: Message 761, carrier is: [{5 [0 0 0 0 0 3 1 0 0 0] Message 962} {7 [0 0 0 0 0 0 0 1 0 0] Message 674} {8 [0 0 0 0 0 0 3 0 0 0] Message 913} {4 [0 0 0 0 0 1 0 0 0 0] Message 1616} {4 [0 0 0 0 0 1 0 0 0 0] Message 1616} {4 [0 0 0 0 0 1 0 0 0 0] Message 1616}] 
+
+2023/11/05 20:33:00 In receiving process: Process 9 received message from Process 8006:, message is: Message 761, timestamp is [0 0 0 0 0 3 5 1 0 0], receivedArray is: [{5 [0 0 0 0 0 3 1 0 0 0] Message 962} {7 [0 0 0 0 0 0 0 1 0 0] Message 674} {8 [0 0 0 0 0 0 3 0 0 0] Message 913} {4 [0 0 0 0 0 1 0 0 0 0] Message 1616} {4 [0 0 0 0 0 1 0 0 0 0] Message 1616} {4 [0 0 0 0 0 1 0 0 0 0] Message 1616}]. prepare process.
+
+2023/11/05 20:33:00 In receiving process: Process 9 received message from Process 8006:, message is: Message 761, timestamp is [0 0 0 0 0 3 5 1 0 0], receivedArray is: [{5 [0 0 0 0 0 3 1 0 0 0] Message 962} {7 [0 0 0 0 0 0 0 1 0 0] Message 674} {8 [0 0 0 0 0 0 3 0 0 0] Message 913} {4 [0 0 0 0 0 1 0 0 0 0] Message 1616} {4 [0 0 0 0 0 1 0 0 0 0] Message 1616} {4 [0 0 0 0 0 1 0 0 0 0] Message 1616}]. after checksentbefore, can accept.
+

@@ -1,0 +1,45 @@
+2023/11/05 20:33:00 Log message for port 8003
+2023/11/05 20:33:00 In sending section: From process 4 send to process 3, timestamp is: [0 0 0 0 1 0 0 0 0 0], messageName is: Message 940, carrier is: [] 
+
+2023/11/05 20:33:00 In receiving process: Process 3 received message from Process 8004:, message is: Message 940, timestamp is [0 0 0 0 1 0 0 0 0 0], receivedArray is: []. prepare process.
+
+2023/11/05 20:33:00 In receiving process: Process 3 received message from Process 8004:, message is: Message 940, timestamp is [0 0 0 0 1 0 0 0 0 0], receivedArray is: []. after checksentbefore, can accept.
+
+2023/11/05 20:33:00 In sending section: From process 4 send to process 5, timestamp is: [0 0 0 0 2 0 0 0 0 0], messageName is: Message 1270, carrier is: [{3 [0 0 0 0 1 0 0 0 0 0] Message 940}] 
+
+2023/11/05 20:33:00 In receiving process: Process 5 received message from Process 8004:, message is: Message 1270, timestamp is [0 0 0 0 2 0 0 0 0 0], receivedArray is: [{3 [0 0 0 0 1 0 0 0 0 0] Message 940}]. prepare process.
+
+2023/11/05 20:33:00 In receiving process: Process 3 received message from Process 8004:, message is: Message 940, timestamp is [0 0 0 0 1 0 0 0 0 0], receivedArray is: []. after checksentbefore, can accept., but receive message unsuccessfully.  End receiving.
+
+2023/11/05 20:33:00 In receiving process: Process 5 received message from Process 8004:, message is: Message 1270, timestamp is [0 0 0 0 2 0 0 0 0 0], receivedArray is: [{3 [0 0 0 0 1 0 0 0 0 0] Message 940}]. after checksentbefore, can accept.
+
+2023/11/05 20:33:00 In receiving process: Process 5 received message from Process 8004:, message is: Message 1270, timestamp is [0 0 0 0 2 0 0 0 0 0], receivedArray is: [{3 [0 0 0 0 1 0 0 0 0 0] Message 940}]. after checksentbefore, can accept., but receive message unsuccessfully.  End receiving.
+
+2023/11/05 20:33:00 In sending section: From process 4 send to process 6, timestamp is: [0 0 0 0 4 1 0 0 0 0], messageName is: Message 1140, carrier is: [{3 [0 0 0 0 1 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270}] 
+
+2023/11/05 20:33:00 In receiving process: Process 6 received message from Process 8004:, message is: Message 1140, timestamp is [0 0 0 0 4 1 0 0 0 0], receivedArray is: [{3 [0 0 0 0 1 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270}]. prepare process.
+
+2023/11/05 20:33:01 In sending section: From process 4 send to process 7, timestamp is: [0 0 0 2 5 1 0 0 0 0], messageName is: Message 1383, carrier is: [{3 [0 0 0 2 0 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {6 [0 0 0 0 4 1 0 0 0 0] Message 1140}] 
+
+2023/11/05 20:33:01 In receiving process: Process 7 received message from Process 8004:, message is: Message 1383, timestamp is [0 0 0 2 5 1 0 0 0 0], receivedArray is: [{3 [0 0 0 2 0 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {6 [0 0 0 0 4 1 0 0 0 0] Message 1140}]. prepare process.
+
+2023/11/05 20:33:01 In receiving process: Process 7 received message from Process 8004:, message is: Message 1383, timestamp is [0 0 0 2 5 1 0 0 0 0], receivedArray is: [{3 [0 0 0 2 0 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {6 [0 0 0 0 4 1 0 0 0 0] Message 1140}]. after checksentbefore, can accept.
+
+2023/11/05 20:33:01 In receiving process: Process 6 received message from Process 8004:, message is: Message 1140, timestamp is [0 0 0 0 4 1 0 0 0 0], receivedArray is: [{3 [0 0 0 0 1 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270}]. after checksentbefore, can accept.
+
+2023/11/05 20:33:01 In sending section: From process 4 send to process 8, timestamp is: [0 0 4 2 6 1 0 0 0 0], messageName is: Message 1694, carrier is: [{3 [0 0 0 2 0 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {6 [0 0 0 0 4 1 0 0 0 0] Message 1140} {7 [0 0 0 2 5 1 0 0 0 0] Message 1383}] 
+
+2023/11/05 20:33:01 In sending section: From process 4 send to process 9, timestamp is: [0 0 4 2 7 1 0 0 0 0], messageName is: Message 765, carrier is: [{3 [0 0 0 2 0 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {6 [0 0 0 0 4 1 0 0 0 0] Message 1140} {7 [0 0 0 2 5 1 0 0 0 0] Message 1383} {8 [0 0 4 2 6 1 0 0 0 0] Message 1694}] 
+
+2023/11/05 20:33:01 In sending section: From process 4 send to process 0, timestamp is: [0 0 4 2 8 1 0 0 0 0], messageName is: Message 1043, carrier is: [{3 [0 0 0 2 0 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {6 [0 0 0 0 4 1 0 0 0 0] Message 1140} {7 [0 0 0 2 5 1 0 0 0 0] Message 1383} {8 [0 0 4 2 6 1 0 0 0 0] Message 1694} {9 [0 0 4 2 7 1 0 0 0 0] Message 765}] 
+
+2023/11/05 20:33:01 In sending section: From process 4 send to process 1, timestamp is: [0 0 4 2 9 1 0 0 0 0], messageName is: Message 258, carrier is: [{3 [0 0 0 2 0 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {6 [0 0 0 0 4 1 0 0 0 0] Message 1140} {7 [0 0 0 2 5 1 0 0 0 0] Message 1383} {8 [0 0 4 2 6 1 0 0 0 0] Message 1694} {9 [0 0 4 2 7 1 0 0 0 0] Message 765} {0 [0 0 4 2 8 1 0 0 0 0] Message 1043}] 
+
+2023/11/05 20:33:01 In sending section: From process 4 send to process 2, timestamp is: [0 0 4 2 10 1 0 0 0 0], messageName is: Message 430, carrier is: [{3 [0 0 0 2 0 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {6 [0 0 0 0 4 1 0 0 0 0] Message 1140} {7 [0 0 0 2 5 1 0 0 0 0] Message 1383} {8 [0 0 4 2 6 1 0 0 0 0] Message 1694} {9 [0 0 4 2 7 1 0 0 0 0] Message 765} {0 [0 0 4 2 8 1 0 0 0 0] Message 1043} {1 [0 0 4 2 9 1 0 0 0 0] Message 258}] 
+
+2023/11/05 20:33:01 In sending section: From process 4 send to process 3, timestamp is: [0 0 4 2 11 1 0 0 0 0], messageName is: Message 1147, carrier is: [{3 [0 0 0 2 0 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270} {2 [0 0 4 2 10 1 0 0 0 0] Message 1762} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {6 [0 0 0 0 4 1 0 0 0 0] Message 1140} {7 [0 0 0 2 5 1 0 0 0 0] Message 1383} {8 [0 0 4 2 6 1 0 0 0 0] Message 1694} {9 [0 0 4 2 7 1 0 0 0 0] Message 765} {0 [0 0 4 2 8 1 0 0 0 0] Message 1043} {1 [0 0 4 2 9 1 0 0 0 0] Message 258}] 
+
+2023/11/05 20:33:07 In receiving process: Process 3 received message from Process 8004:, message is: Message 1147, timestamp is [0 0 4 2 11 1 0 0 0 0], receivedArray is: [{3 [0 0 0 2 0 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270} {2 [0 0 4 2 10 1 0 0 0 0] Message 1762} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {6 [0 0 0 0 4 1 0 0 0 0] Message 1140} {7 [0 0 0 2 5 1 0 0 0 0] Message 1383} {8 [0 0 4 2 6 1 0 0 0 0] Message 1694} {9 [0 0 4 2 7 1 0 0 0 0] Message 765} {0 [0 0 4 2 8 1 0 0 0 0] Message 1043} {1 [0 0 4 2 9 1 0 0 0 0] Message 258}]. prepare process.
+
+2023/11/05 20:33:07 In receiving process: Process 3 received message from Process 8004:, message is: Message 1147, timestamp is [0 0 4 2 11 1 0 0 0 0], receivedArray is: [{3 [0 0 0 2 0 0 0 0 0 0] Message 940} {5 [0 0 0 0 0 1 0 0 0 0] Message 1270} {2 [0 0 4 2 10 1 0 0 0 0] Message 1762} {2 [0 0 0 1 0 0 0 0 0 0] Message 1762} {6 [0 0 0 0 4 1 0 0 0 0] Message 1140} {7 [0 0 0 2 5 1 0 0 0 0] Message 1383} {8 [0 0 4 2 6 1 0 0 0 0] Message 1694} {9 [0 0 4 2 7 1 0 0 0 0] Message 765} {0 [0 0 4 2 8 1 0 0 0 0] Message 1043} {1 [0 0 4 2 9 1 0 0 0 0] Message 258}]. after checksentBefore, prepare to process timestamp, timestampIncarrier is: [0 0 0 2 0 0 0 0 0 0].
+
